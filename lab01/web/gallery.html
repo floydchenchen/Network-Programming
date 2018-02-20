@@ -1,0 +1,160 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sports Collage</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script
+            src="http://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <style type="text/css">
+        body {
+            padding-top: 70px;
+        }
+
+        .jumbotron {
+            color: #2c3e50;
+            background: #ecf0f1;
+        }
+
+        .navbar-inverse {
+            background: #2c3e50;
+        }
+        .navbar-inverse .navbar-nav>li>a {
+            color: white;
+        }
+
+        .navbar-inverse .navbar-brand {
+            color: white;
+        }
+        .image{
+            position:relative;
+            overflow:hidden;
+            padding-bottom:100%;
+        }
+        .image img{
+            position: absolute;
+            max-width: 100%;
+            max-height: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-inverse: dark color navbar-->
+    <!--navbar-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#" class="navbar-brand"><i class="fas fa-images"></i> Floyd & Dollins</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-nav-demo">
+                <ul class="nav navbar-nav">
+                    <li><a href="./basketball.html">Basketball</a></li>
+                    <li><a href="soccer.html">Tennis</a></li>
+                    <li><a href="tennis.html">Soccer</a></li>
+                    <li><a href="./track.html">Track</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- <li><a href="#">Sign Up</a></li> -->
+                    <!-- <li><a href="#">Login</a></li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--jumbotron-->
+    <div class="container">
+        <div class="jumbotron">
+            <h1><i class="fas fa-camera-retro"></i> Sports Collage</h1>
+            <!-- <p>Countdown for May's Coming back to Minnesota: <span style="font-weight: bolder">25</span> Days</p> -->
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/IAyNIMF5xrx8jsHght3TF4zHyYUjTFJZBrTM75c2RIADVRP6AkFNWVq6m7dpEOhUAMBU_gCla2qa3w3SiMMmVCG5gVrA8ipIEyuL5i3drfI6xssK8AtsscS3s0RnxStpYQnjgMo7CaZXotBQwlmJ2QxtdiqmZdfBK1bf6uxHCd-nH0UGQ8cf7Sc1WNE2Jq7ba2u6AYPFXRwzi-sI4Y8KgBdPckd7vNtjML-i2MKQk_mwYKTszW7N2c3umQ37zow_BVF4ORm7RAQEtPAPr48CjdmFkUQJoaCkl8NpjEQm6BtOhYIYNTvYyjQFR2xFpTsQYAZ-DPMqmqQM7HbA9stEVGYSs0ZDyKwvYWd_E3a1mYwo688O6kVNesqKP2PAgPiqH8tShBGZorSkEVIrOTiAjqz8_7pv8BNNLuM0xXJfzqqq2NniAEQwPNXAHgsiNh1GLfvbpUioTv_dAQ9eQSqK6vwp1YPjHbdKbZm7r2BtZlbYAwetewmOU9VgAe0oru1RoVfOHeTjHeYJNcIjqnDQTGFj3Lgh3BcNYcBWSe2VBeRF3lC0Z9S58Pgzr6K0uTJ14CzPJVkhCqsnnTnzb86z7MjO0J2O97tYwtqatBk=w1018-h846-no">-->
+                        <img class="img img-responsive full-width" src="./images/1.JPG">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/2.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/PU1l2pobG9xdlPlLB5DYg0ByHii5x0c1g0jhINYWl0lEHa5O9mx7O_vnFGWud44uauMzTV_thNEGv5wqwa0Y5feB7HdR1GVdQOZcFPoFPd1AkiKHFgXdLed9sKy3CCwGjNM0T62HjNS3QYEoc_nzyb7Cfw7ny8sFwu_SCKVscUk2djNtMollj-z6r3ml94qSbooyb3HrC1DBhgkR_-WR12iKARg4MQS1vq6w9hhGapTh6V_1Aw76l0TkZB4CzQl5YitS5wGE7_Qrkcnr7Qe_2kTRlqgqARHTHBeBZx_nCqedVYTeIXf8CE0a4Aczu3FYwcuKmkOD7I0p99fU6oev_C9Md0yZUu6dKsVYHjIrZ2jb7lncAOnY5aDf-ir8_eS6prB_xib-J9PpBvHrTVGaBMCWxMC3KgZjE-z9x8-a1sw-C7pqQ1Kkk7zPenzkCcgk5Pry8edf3bVlavaqUa0Tp21JIHYrGW2QyYJWvKpyigcYTCSAaaURTHwBb5yLy47Xute9MQOH6q3OufVUOzQw_NsxdVVc4D3CyK-nRCIUMZlH6S4OISHF0qfzDhX-AviDxGzUly2EZ_sH8h0T5Mv27IBlHqDJyzVBBbRUisOd=w763-h846-no">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/3.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/mYMvrG5XZ8mxiWMFa9K374MpwAwVyStP_nKXZr7CIWkvESdQxSYIknnnXQz_p775GsG2t2xsnDPvZaPQmnL23yrBnlysoXsPKvVwftrBCDLrq0sobPngzEJnLc1SHfAFvwWwAUGG1blAq_9bAn4O-Dsw6-q88ZGQt2Qyd7-L_t5unO0eqqZoSHJBdEVzC1RgISXFAGq_Utm03PAwJpPqcZQBdksvk0JO5_5hefELW21iECM1gzSQJLgaeV49lF0l8mZIJXwkgGum8K-kCm3qkqFVC4UPLgym-Zfja99B-dc8OZdu7bIs-ZmAxxww6n2tb2dl7gwi4trQkuAUguizX9mUdKSTRS6DbdIIpdkUlDe7MIPyKNOJCzYjt-N5cByAmQOtBFR_Ap9szwakkEUrfYEX-3xguMNPVnbCZdVdDsJuBA13Y2NkNDNnnkK1kjOuA9Z_TWi9CrIXzMlCqqxQIvjstX8oknvvUwTierJ064OrohZz9hFw5326WFuaRMnx4lBcm-e_6UoT9t0Vg-El-Msmumx33m-5IlNJQv_c9u6m5v0YFCfLZU_ar4pqkw7zknBGj-iFKIo9WoMh6zBzNhoTf-xeBfibEoJXM2w=w636-h846-no">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/4.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/xQaSeC35NadRwYroNREQCD20ZWI3rSMOvfolb6yU_LyLI_lKQji9Hg1NOPZ8B3H3r1fEvKlKFeUse4PEhZ-ZowaSov4ZI0fI0KrOAZEoU3rPzCQX-H5mjQgYrdo3QjNAj1MbZt5o6SXvtZmkq_RbOdtOfEsBE784mYwpW2-MQQ5gjxxw_NQZ3aQhVWvCMB1hvSIU9ZDRoFqWV0oxwOodpQxc12z9FEck-Qx2KfQiDvZUsn9iFs1OrUy_2-qgJzf7BmjLCCCFc5HaD8tvb4Kz2ezH3J1u_ySQT0N5OMrNx2n_AVDq0YyX6CjeF4rLufkXU6xYRxetXIPryh_bM3kwd4ns6xEWppS8lqDE4VprlClYf39mMiPNasLCSnVlXFw8NXUYTqKLQLe9HgI1yLshgK3YM1Mx94Nh_Xs0OanHTCX8E4Ju1Ov0c_66FMiBQzBa3OTRSGLohec2SgVfB1q7nz8Gqp-oYtsK5MzhFAYmM5nMrYp1Bg2Av1pZCQF_ixO7Ydz2tKKMcPso7GtEzw3DpI9oqJjnDhWZ5CSokudnFJpeag5QgPyKkIonJfdnqiwDWZycx6oKXncr07RHQRiOOiPArpZbXcA0ivWWGKk=w635-h846-no">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/5.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/0vBrSkgAfvm8xvsuMhEuJUwCJStlZ_yS-lwn8CcX2cigzpJ0bJOedL8T00UMt_NydNjyFALjahDBBalSckK8LG3duk_kQvxU5UVAcT5RbsQYKs7U-zn4IY_j4vLQNLBqtSYNQzrjQ_cVY3caIpO9zGkSRFAtCSXP-cqhoNzjIupAfRD1naaIjn6hIp_iD-sagW8P-ebm2yXZoe-VNYuJ3-Dpq9Q87LzpOxYhtKCB0zEd3iZ7zlH5wrA734c33BbQDrtK2NZJAKrUTOKkhyeatFyUuSobOcISwtj8cGpBM6HJGRgKe-GwS8PRcOW6ST8k3sXYDi_1eQMo0FWbnpiRCCT0PKXyavkCtl1jRyoBq9NuQmJ18SD2bsNfF0zcAP0fFk5Xdfh-3pXRH4_G7BaS9jGuExJCCWGP-GiYpP65bgdPJjFH2oqQ4eYjDBmKJdT4GgTy0-H944PEJgDBLyUORmwkIYzaFvtjhJnaAgMI7TAeGD4_cqiZl-Z8WPliSYnfXMrHtBzDQ8pieLraGdEZWZN20QsTTHKntrgvH2AvtM5oyGoWgvxmHnju2uOlWIE9rSasbwNW6vCbZTtpcG3JeM8JEtMe6cERa_S1-xg=w630-h846-no">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/6.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/nykFz5zUsgy5ZJAfS6Wo7zKn_Itb-uer7HMZNtTzmbJqD1RN3Ki-CWFoztF0vtVYYRDWxjzxeYyjJQ_HqDwdfpjHxyq6uOBM2gKvyCXG-2zjOwORPTQMkDkvQim1eNRUV6icBmMEQtJFtDHpSf20F20YF5OZBhGtPW86YDVv3mSrcfIjE6vn2r33J9OB7gDAIjk5I9WlLNZfJZQnFS5Vsm1zJ1tDpuJswNFPoOs_FvcznTE98G0zumqK1DyyzgQaxUUaD8MIggiws5NxjGpF6HdBppDgaXjVVeEAX61c-nCh547A-So2nav10LFWzscSEm89OMfY3Bv7cCvwVdNc2wLLjmR7MCTuZ6MSgoztGtil-pIJc0pTdGAblYDcLJxnC1V0UKj1sRPrwuLD0LH2FM9FMdo7GOzAKMAHHigOJrD_Pt_V9KrTpAV9ccu7zrNEsYcyUI1_F2UHz6IpbJP6tQuIvIfvLA_Kru2BuOsJJ7dSX9-SyfBA9zWfjmi9FxtAN_cKMO5Qw02I_a0bvEfPdZGSj9Bk4eiT7KfDBLJKgxgkjQp5Ki9ztJeLp5l01WUlP4m1d3tmBNtu2p27_JumBNqphRvZ4ICK4xgNWK0=w1128-h846-no">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/7.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/aliEm-h9IrxkGlvRJqkaXRCPs8paVpj_kvypj5mBpGDORFly6FnYLK_oHmhMSXKObDkB88R8jGNaT_Vdo4k65jvpMVVv3FhkIvzz54JCD4CTjJl20cEaA1KpUGYKCRhp9yDuNQxHF11YVasaIEjkrBiKadCEto-MIsP7kei2pyycYQ9Yvxr7nG9F9k8PzIygR50eEe9iUGxuisIvzyB8W0eMAgDguCRM4yLLdA9J3pSNiBb7c4m1UvkTvlbsF-mfdCJ_Qp0bkpMxrrlbp35vMeJUpY1iByqenJKasy5rDcfpgscdHZQkZ6AKg50c1BGQDvpafJ_BeqPZFORi7jn_COHRWZohvyMiz1MKc5HK6EWZmkEcpwbaWNHCeYCoWo1lpEYL8DHvd3PoBFZrikeZIqXaFULBdgK3wkahZZDPyaaHMDOCpt7lG8C8nJpi87QCur3hmS5KcdyXUvzAyGvPvy4_uKEgEzcE4PNeZoMwJ2Be98JJ0FnqW9LfdM1IwD92rL1yqpVre8QiVi7_dbQA44mC36-rVmPfpLwSOylqVzQfaLABnaEd7mygXjyKrCsdSV6GGXkFMNeFokJS2tMJq5SCLFjlQT-tgayhsUI=w800-h533-no">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/8.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/9_Qylwbg52mMYYudPrRxE0iX4N-61JgO7UApXoD3mn1SRb1fKVhDCkUbeUUhExA0vucIy4RphugN-yAJv2dLSFgmptj1PAm1g_Dm0mX6dCSZhM8cGyH_OGEI4i34ImUVDXzeE0lFPLjHbvfL3Gae3LNxndXHVuFBueZF67O6Iu75jUlNqdY5Ao_uR9wCiyr4fmIC5t1mMtTSOLn9P0yGly0duiInMQI_8Hd-B2ihBZyiqYWY0Jy8tKBZhos-kqCk6EQp-PfOGziKrr17dZmwNJIwLe13rwfqvhNL_vzlEuPzdSi8Z8w5Y66HtC6kXKBsOCUkkZEL4-sXdj5i37ceUuRVD50dtIgHtc9d1pQd3ZzUt3tHcQKuDJlizw0QXdvKjFid0lAlaPVaab-uQCI_N6ZX0JVgVNDRKpIjERmuUoQTsQQ_cotV3fxVzJkzRCGh3syBi9ihrGZrUYWkN3-Bk5gvDJjDjxB_v8T7kfQWl2V8C3kVBDh2wVr6XB2oNnH1N5cpqYAqUT4x2K-gfpR09xBZHgDnKMa_PxS6PlrDHwTdSiJsLdztbGwkqKKvvFBEmf69MieoKE9cJ68FdhGhlC4C5oqtVRFuJ0bEaf8=w635-h846-no">-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="thumbnail">
+                    <div class="image">
+                        <img class="img img-responsive full-width" src="./images/9.JPG">
+                        <!--<img class="img img-responsive full-width" src="https://lh3.googleusercontent.com/vGpE3Xg3DbYPyDUmbIzu293RUVvCuFde24M3cyLT05ETG5bm7_9T6hfQwDnPDA8BEaoUp483tXLgIKfb9htKaE7m_6ve64LMI0l6xioWwq2WPREYC1TptnwIQitjRgjNXD8vOFivc4SfWqTXEdZFRBaf5Cmqo5QdBKaPvlumqtNODmxBevoK37VMVBagfX8rorZR5uk_dbBwrn36MLlAf3vzMQDOjIpHsOb3xaKXptzFn4neV-yWtuKpq3XxpqIL8VRq7x0-1gTYzQPN5j9aC2MANtskkfHzjMjc58tKETKtZ52l5uFz48kFUQVug2NYeayF4RLDuGowE0PbSFi1eh6gAx-zX-0QQoUdOEebQP7Z1MxkT2Q0aZudyz5dyJ-Cq3IhfMepTmQGemLDfAbJ1L1FrzaN4uA_OZ_QDDpKVvIjCscml6a1p8339DumNZgr_tCM35TnYvu_JYIaZlZ-ssnCrOjFKB_KqlRZ-3FQeQ_jjWhhwSPXemjJc7yNzRPyzoLi-SJizq9Zdda24G1-3nYukS2vV7CoKh3SFQIiFeW3ntYOGBt80tWoIVfFRhCyKAPxSgDpp9z2Q7-yJsZS2S2ZiEgzqB3bvpqFuNg=w635-h846-no">-->
+                    </div>
+                </div>
+            </div>
+    </div>
+    </div>
+</body>
+</html>
